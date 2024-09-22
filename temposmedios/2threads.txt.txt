@@ -1,0 +1,11 @@
+tempo na primeira execução: 1.16
+tempo na segunda execução: 1.16s
+tempo na terceira execução: 1.18s
+tempo na quarta execução: 1.18s
+tempo na quinta execução: 1.16s
+tempo na sexta execução: 1.16s
+tempo na setima execução: 1.17s
+tempo na oitava execução: 1.16s
+tempo na nona execução: 1.13s
+tempo na decima execução:1.16s
+tempo médio total: 1.162s

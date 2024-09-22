@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.nio.file.*;
 import java.util.*;
 
-public class noThreads {
+public class NoThreads {
 
     public static void main(String[] args) {
         Path csvDirectory = Paths.get("C:\\Users\\Cauê Justen Garbi\\Documents\\temperaturas_cidades");
