@@ -14,7 +14,7 @@ public class TwoThreads {
     public static void main(String[] args) {
         Path csvDirectory = Paths.get("C:\\Users\\Cauê Justen Garbi\\Documents\\temperaturas_cidades");
 
-        long startTime = System.nanoTime();
+        long overallStartTime = System.nanoTime();
 
         try {
             List<Path> csvFiles = Files.walk(csvDirectory)
@@ -25,6 +25,8 @@ public class TwoThreads {
 
             ExecutorService executor = Executors.newFixedThreadPool(2);
             List<Future<Map<String, Map<String, List<Double>>>> > futures = new ArrayList<>();
+
+            long threadStartTime = System.nanoTime(); // Início da medição de tempo das threads
 
             for (int i = 0; i < 2; i++) {
                 int start = i * 160;
@@ -37,6 +39,9 @@ public class TwoThreads {
             executor.shutdown();
             executor.awaitTermination(1, TimeUnit.HOURS);
 
+            long threadEndTime = System.nanoTime(); // Fim da medição de tempo das threads
+            long threadDuration = threadEndTime - threadStartTime; // Duração das threads em nanosegundos
+
             Map<String, Map<String, List<Double>>> allCityTemperatures = new HashMap<>();
 
             for (Future<Map<String, Map<String, List<Double>>>> future : futures) {
@@ -45,13 +50,15 @@ public class TwoThreads {
 
             calculateAndPrintTemperatures(allCityTemperatures);
 
+            long overallEndTime = System.nanoTime(); // Fim da medição geral
+            long overallDuration = overallEndTime - overallStartTime; // Duração total em nanosegundos
+
+            System.out.printf("Tempo total de execução das threads: %.2f segundos%n", threadDuration / 1_000_000_000.0);
+            System.out.printf("Tempo total de execução do experimento: %.2f segundos%n", overallDuration / 1_000_000_000.0);
+
         } catch (IOException | InterruptedException | ExecutionException e) {
             System.err.println("Erro: " + e.getMessage());
         }
-
-        long endTime = System.nanoTime();
-        long duration = endTime - startTime;
-        System.out.printf("Tempo total de execução: %.2f segundos%n", duration / 1_000_000_000.0);
     }
 
     private static Map<String, Map<String, List<Double>>> processCsvFiles(List<Path> csvFiles) {
@@ -115,4 +122,5 @@ public class TwoThreads {
         }
     }
 }
+
 
