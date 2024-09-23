@@ -31,6 +31,8 @@ A ideia do projeto é fazer com que o programa leia varios arquivos CSV que poss
 
 
 # Autores
+https://github.com/garbizada
 <a href=“https://github.com/garbizada“>Cauê Justen Garbi</a> <br>
+https://github.com/cortez1102
 <a href=“https://github.com/cortez1102“>João Victor Cortez Neres</a> 
 
