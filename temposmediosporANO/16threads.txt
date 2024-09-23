@@ -1,0 +1,21 @@
+tempo na primeira execução: 0.82s
+tempo das Threads: 0.69s
+tempo na segunda execução:0.88s 
+tempo das Threads:0.73s
+tempo na terceira execução:0.86s 
+tempo das Threads:0.73s
+tempo na quarta execução:0.73s
+tempo das Threads:0.59s
+tempo na quinta execução:1.52s 
+tempo das Threads:1.38s
+tempo na sexta execução:0.88s
+tempo das Threads:0.74s
+tempo na setima execução:0.78s
+tempo das Threads:0.64s
+tempo na oitava execução:0.84s
+tempo das Threads:0.70s
+tempo na nona execução:0.89s
+tempo das Threads:0.75s
+tempo na decima execução:1.51s
+tempo das Threads:1.37s
+tempo médio total: 0.971s
