@@ -1,23 +1,36 @@
+
+ 
+
+
+
+
 # TrabalhoThreadsUCB
 Temperaturas de cidades usando Threads com JAVA 17!
 
-Descrição:
+## Descrição
 Este repositório contém o projeto/Trabalho da Faculdade Cátolica de Brasília, dentro dele contém os códigos, documentos e relatório como requisitado!!!
 
-Objetivo
+## Objetivo
 A ideia do projeto é fazer com que o programa leia varios arquivos CSV que possuem temperaturas de vários paises, e ir aumentando a quantidade de threads a cada programa para ver qual terá a melhor e mais rápida resposta!
 
-✈️TECNOLOGIAS&BIBLIOTECAS USADAS:
-  - JAVA 17;
-  - ECLIPSE IDE;
-  - APACHE MAVEN;
-  - CSVReader;
-  - CsValidationException;
-  - Java.io.FileReader;
-  
+## ✈️TECNOLOGIAS&BIBLIOTECAS USADAS:
+  ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java)
+
+
+## Tools
+  ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+
+
+ ## IDEs:
+![Eclipse](https://img.shields.io/badge/-Eclipse-2C2255?style=flat-square&logo=eclipse&logoColor=white)
 
 
 
 
 
-Trabalho feito por <h3>Cauê Justen Garbi e João Victor Cortez Neres!</h3>
+
+
+# Autores
+<a href=“https://github.com/garbizada“>Cauê Justen Garbi</a> <br>
+<a href=“https://github.com/cortez1102“>João Victor Cortez Neres</a> 
+
