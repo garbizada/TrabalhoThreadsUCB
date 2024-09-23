@@ -20,4 +20,4 @@ A ideia do projeto é fazer com que o programa leia varios arquivos CSV que poss
 
 
 
-Trabalho feito por Cauê Justen Garbi e João Victor Cortez Neres!
+Trabalho feito por <h3>Cauê Justen Garbi e João Victor Cortez Neres!</h3>
