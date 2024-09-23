@@ -1,21 +1,21 @@
-tempo na primeira execução: 3.33s
-tempo das Threads: 3.19s
-tempo na segunda execução:4.21s 
-tempo das Threads:4.08s
-tempo na terceira execução:3.33s 
-tempo das Threads:3.19s
-tempo na quarta execução:2.09s
-tempo das Threads:1.96s
-tempo na quinta execução:3.06s 
-tempo das Threads:2.93s
-tempo na sexta execução:3.63s
-tempo das Threads:3.50s
-tempo na setima execução:2.87s
-tempo das Threads:2.74s
-tempo na oitava execução:3.28s
-tempo das Threads:3.14s
-tempo na nona execução:2.85s
-tempo das Threads:2.70s
-tempo na decima execução:2.63s
-tempo das Threads:2.49s
-tempo médio total: 3.128s
+tempo na primeira execução: 3.64s
+tempo das Threads: 3.48s
+tempo na segunda execução:7.40s 
+tempo das Threads:7,24s
+tempo na terceira execução:2.42s 
+tempo das Threads:2.26s
+tempo na quarta execução:2.46s
+tempo das Threads:2.29s
+tempo na quinta execução:2.97s 
+tempo das Threads:2.79s
+tempo na sexta execução:3.51s
+tempo das Threads:3.35s
+tempo na setima execução:4.62s
+tempo das Threads:4.47s
+tempo na oitava execução:4.27s
+tempo das Threads:4.12s
+tempo na nona execução:3.36s
+tempo das Threads:3.21s
+tempo na decima execução:4.39s
+tempo das Threads:4.32s
+tempo médio total: 3.904s
