@@ -24,7 +24,10 @@ A ideia do projeto é fazer com que o programa leia varios arquivos CSV que poss
  ## IDEs:
 ![Eclipse](https://img.shields.io/badge/-Eclipse-2C2255?style=flat-square&logo=eclipse&logoColor=white)
 
-
+## RECOMENDAÇÂO PARA RODAR O PROJETO
+-Clonar o repósitorio na maquina que estiver usando
+-Certificar que o Apache Maven está baixado 
+-Rodar o projeto no eclipse
 
 
 
